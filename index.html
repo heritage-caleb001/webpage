@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Web-page Design</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-image: url(webpageimage.jpg); background-repeat: no-repeat; background-size: cover;">
+        <div class="main">
+            <div class="navbar">
+                <div class="icon">
+                    <div class="logo">PraRoz</div>
+                </div>
+
+                <div class="menu">
+                    <ul>
+                        <li><a href="#"></a>HOME</li>
+                        <li><a href="#"></a>ABOUT</li>
+                        <li><a href="#"></a>SERVICE</li>
+                        <li><a href="#"></a>DESIGN</li>
+                        <li><a href="#"></a>CONTACT</li>
+                    </ul>
+                </div>
+
+                <div class="search">
+                    <input class="srch" type="search" name="" placeholder="Type To Text ">
+                    <a href="#"> <button class="btn">Search</button></a>
+                </div>
+                
+            </div>
+            <div class="content">
+                <h1>Web Design <br><span> & Development</span> <br>Course</h1>
+                <p class="par">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae ipsam atque vero cupiditate? Illum officia <br> 
+                    voluptates quam ipsam soluta magnam nemo odit accusantium natus, 
+                    <br> totam minima. Amet aspernatur odio iure.</p>
+
+                    <button class="cn"><a href="#">JOIN US</a></button>
+
+                    <div class="form">
+                        <h2>Login Here</h2>
+                        <input type="email" name="email" placeholder="Enter Email Here">
+                        <input type="password" name="" placeholder="Enter Password Here">
+                        <div class="btnn"><a href="#">Login</a></div>
+
+                        <p class="link">Don't have an acoount<br>
+                        <a href="#">Sign up</a> here</a></p>
+                        <p class="liw">Log in with</p>
+
+                        <div class="icons">
+                            <a href="https://web.facebook.com/?_rdc=1&_rdr"><ion-icon name="logo-facebook"></ion-iocn></a>
+                            <a href="https://www.instagram.com/"><ion-icon name="logo-instagram"></ion-iocn></a>
+                            <a href="https://twitter.com/home"><ion-icon name="logo-twitter"></ion-iocn></a>
+                            <a href="https://www.google.com/"><ion-icon name="logo-google"></ion-iocn></a>
+                            <a href="#"><ion-icon name="logo-skype"></ion-iocn></a>
+                        </div>
+                       
+                    </div>
+
+            </div>
+        </div>
+
+
+        <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+</body>
+</html>
+<script>
+    (function(doc){
+    var scriptElm = doc.scripts[doc.scripts.length - 1];
+
+    warn.push('To improve perfomance it is recommended to set the differential scripts in the head as follows:')
+
+    var parts = scriptsElm.src.split('/')
+    scriptElm.setAttribute('type', 'module');
+    scriptElm.src = url + '/ionicons.esm.js';
+    warn.push(scriptElm.outerHTML);
+    scriptElm.setAttribute('data-stencil-namespace', 'ionicons');
+    doc.head.appendChild(scriptElm);
+
+    scriptElm = doc.createElement('script');
+    scriptElm.setAttribute('nomodule', '');
+    scriptElm.src = url + '/ionicons.esm.js';
+    warn.push(scriptElm.outerHTML);
+    scriptElm.setAttribute('data-stencil-namespace', 'ionicons');
+    doc.head.appendChild(scriptElm);
+
+
+    scriptElm = doc.createElement('script');
+    scriptElm.setAttribute('nomodule', '');
+    scriptElm.src = url + '/ionicons.js';
+    warn.push(scriptElm.outerHTML);
+    scriptElm.setAttribute('data-stencil-namespace', 'ionicons');
+    doc.head.appendChild(scriptElm);
+
+    console.warn(warn.join('\n'));
+});
+
+
+// (function() {
+//     document.documentElement.style.transitionDuration="60s";
+//     document.documentElement.style.transitionTimingFunction="ease-in";
+//     document.documentElement.style.transform="rotate(360deg)";
+// }())
+</script>
+
+
+
+
